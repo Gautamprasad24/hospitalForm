@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background:linear-gradient(to left,rgb(9, 155, 240),rgb(235, 7, 235));
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+
+    height:100vh;
+}
+form{
+    border:2px solid black;
+    height: 90vh;
+    width:70vh;
+    margin:10px ;
+   text-align: center;
+   position:absolute;
+   transform:translate(110%,10%);
+   background-color: rgb(247, 164, 10);
+   border-radius :10%;
+   top:-20px;
+}
+p{
+    position:relative;
+    text-align: center;
+    margin:15px;
+}
+h1{
+    margin:20px;
+}
+i{
+    color:black;
+}
+input{
+    height:8%;
+    width:80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   font-size: 15px;
+   font-weight: bolder;
+}
+button{
+    width:50%;
+    color:black;
+    position:relative;
+    text-align: center;
+    height:40px;
+    font-size: 15px;
+    font-weight: bold;
+    top:-10px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:rgb(223, 54, 12);
+    color:whitesmoke;
+}
